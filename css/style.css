@@ -38,6 +38,10 @@
       "main side"
       "main side";
   }
+
+  .topbar {
+    display:flex;
+  }
   
   .main { grid-area: main; }
   

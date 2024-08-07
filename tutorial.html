@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorials - Unix/Linux Tutorial Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Unix/Linux Tutorial Hub Logo">
+            Unix/Linux Tutorial Hub
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tutorial.html">Tutorials</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Tutorials</h1>
+            <div class="tutorial-section" id="basic">
+                <h2>Basic Commands</h2>
+                <p>Learn the essential commands to navigate and manage your Unix/Linux system.</p>
+                <article>
+                    <h3>Navigation Commands</h3>
+                    <p>Commands like <code>cd</code>, <code>ls</code>, and <code>pwd</code> to navigate the file system.</p>
+                    <pre><code>cd /directory/path
+ls -la
+pwd</code></pre>
+                </article>
+                <article>
+                    <h3>File Management</h3>
+                    <p>Commands like <code>cp</code>, <code>mv</code>, and <code>rm</code> for managing files and directories.</p>
+                    <pre><code>cp source_file destination_file
+mv old_name new_name
+rm file_name</code></pre>
+                </article>
+            </div>
+            <div class="tutorial-section" id="advanced">
+                <h2>Advanced Commands</h2>
+                <p>Master advanced Unix/Linux commands for efficient system administration.</p>
+                <article>
+                    <h3>Process Management</h3>
+                    <p>Commands like <code>ps</code>, <code>kill</code>, and <code>top</code> for managing system processes.</p>
+                    <pre><code>ps aux
+kill -9 process_id
+top</code></pre>
+                </article>
+                <article>
+                    <h3>Networking</h3>
+                    <p>Commands like <code>ifconfig</code>, <code>ping</code>, and <code>netstat</code> for network configuration and troubleshooting.</p>
+                    <pre><code>ifconfig
+ping google.com
+netstat -tuln</code></pre>
+                </article>
+            </div>
+            <div class="tutorial-section" id="troubleshooting">
+                <h2>Troubleshooting</h2>
+                <p>Step-by-step guides to troubleshoot common Unix/Linux issues.</p>
+                <article>
+                    <h3>Boot Issues</h3>
+                    <p>Diagnose and fix issues preventing your system from booting.</p>
+                    <pre><code>dmesg | grep error
+systemctl status service_name
+journalctl -xe</code></pre>
+                </article>
+                <article>
+                    <h3>Network Problems</h3>
+                    <p>Identify and resolve network connectivity issues.</p>
+                    <pre><code>ping gateway_ip
+traceroute destination
+nmcli device status</code></pre>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Unix/Linux Tutorial Hub. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

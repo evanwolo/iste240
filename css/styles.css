@@ -1,0 +1,166 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    background-color: #2a9d8f;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero .btn {
+    background-color: #e76f51;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #d64e30;
+}
+
+.latest-tutorials, .about-us {
+    margin-top: 40px;
+}
+
+.tutorial-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tutorial-list article {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1 1 300px;
+}
+
+.tutorial-list article h3 {
+    margin-top: 0;
+}
+
+.tutorial-list article .btn {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.tutorial-list article .btn:hover {
+    background-color: #1f7a67;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #e76f51;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.tutorial-section {
+    margin-bottom: 40px;
+}
+
+.tutorial-section h2 {
+    margin-top: 0;
+}
+
+.tutorial-section article {
+    margin-bottom: 20px;
+}
+
+.blog-post {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.blog-post h2 {
+    margin-top: 0;
+}
+
+.blog-post a {
+    color: #2a9d8f;
+    text-decoration: none;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}
+
+
+.read-more {
+    color: #2a9d8f;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
