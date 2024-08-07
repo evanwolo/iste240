@@ -1,15 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/flickity.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Homepage</title>
+    <script src="js/flickity.pkgd.min.js"></script>
 </head>
+
 <header>
-    
+
+    <div class="topbar">
+        <div><img src="logo" alt=""></div>
+        <div style="margin-left:auto">
+            <input type="text" name="search" id="search">
+            <a href="#"><img src="settings" alt=""></a>
+            <a href="#"><img src="profile_pic" alt=""></a>
+
+        </div>
+    </div>
+
 </header>
+
 <body>
-    
+
+    <div class="container">
+        <div class="main">
+            <h2>Featured Posts</h2>
+            <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+            </div>
+        </div>
+        <div class="side">
+            <div id="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li>Getting Started</li>
+                    <li>Command Reference</li>
+                    <li>Subscribe</li>
+                    <li>Get Support</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
 </body>
+
 </html>
