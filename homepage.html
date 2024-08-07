@@ -13,13 +13,22 @@
 <header>
 
     <div class="topbar">
-        <div><img src="logo" alt=""></div>
-        <div style="display:flex;margin-left:auto">
-            <input type="text" name="search" id="search" placeholder="Search:">
+        <div style="margin-right:auto"><img src="logo" alt=""></div>
+        <div style="display:flex;margin-left:auto;align-content:center">
+            <input type="text" name="search" id="search" placeholder="Search:" style="width:500px">
             <a href="#"><img src="settings" alt=""></a>
             <a href="#"><img src="profile_pic" alt=""></a>
         </div>
     </div>
+    <nav>
+        <ul>
+            <li><a href="/homepage.html">Home</a></li>
+            <li><a href="/tutorial.html">Tutorials</a></li>
+            <li><a href="/resources.html">Resources</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/about.html">About Us</a></li>
+        </ul>
+    </nav>
 
 </header>
 
@@ -35,19 +44,33 @@
                 <div class="gallery-cell"></div>
                 <div class="gallery-cell"></div>
             </div>
+
+            <h2 style="margin-top: 30px;">Popular Categories</h2>
+
+                <ul class="flexcontainer" id="popcategories">               
+                    <li class="card">CATEGORY</li>
+                    <li class="card">CATEGORY</li>
+                    <li class="card">CATEGORY</li>
+                </ul>
         </div>
+
         <div class="side">
-            <div id="quick-links">
+            <div class="card" id="quicklink">
                 <h2>Quick Links</h2>
-                <ul>
+                <ul style="line-height:50px;">
                     <li>Getting Started</li>
                     <li>Command Reference</li>
                     <li>Subscribe</li>
                     <li>Get Support</li>
+                    <li>-</li>
                 </ul>
             </div>
+        
+            <div class="card" id="latestposts">
+                
+            </div>
+
         </div>
-    </div>
     </div>
 </body>
 
